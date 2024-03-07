@@ -10,6 +10,7 @@
 
 body{
     background-color: maroon;
+    overflow: hidden;
 }
 
 /* HEADER */
@@ -20,7 +21,7 @@ header{
 
 .container{
     max-width: 80%;
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -30,7 +31,7 @@ header .container *{
 
 header::after{
     content: '';
-    display: inline-block;
+    display: block;
     border: 2px solid white;
     width: 100%;
 }
@@ -45,7 +46,7 @@ button{
 
 main::after{
     content: '';
-    display: inline-block;
+    display: block;
     border: 2px solid white;
     width: 100%;
     margin-top: auto;
@@ -67,10 +68,10 @@ main::after{
     text-align: center;
 }
 
-#result div{
+.outcome .container div{
     color: white;
     margin: 24px 0;
-    font-size: 30px;
+    font-size: 30px;;
 }
 
 
