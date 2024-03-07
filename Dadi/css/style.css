@@ -13,20 +13,24 @@ body{
     overflow: hidden;
 }
 
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
 /* HEADER */
 
 header{
     color: white;
 }
 
-.container{
-    max-width: 80%;
-    margin: 0 auto;
-    text-align: center;
+
+header .container h1, h3{
+    margin: 24px 0;
 }
 
-header .container *{
-    margin: 24px 0;
+.title__decoration{
+    margin: 0 12px;
 }
 
 header::after{
