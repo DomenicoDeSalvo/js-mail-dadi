@@ -1,0 +1,54 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* LAYOUT */
+
+body{
+    background-color: maroon;
+}
+
+/* HEADER */
+
+header{
+    color: white;
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+header .container *{
+    margin: 24px 0;
+}
+
+header::after{
+    content: '';
+    display: inline-block;
+    border: 2px solid white;
+    width: 100%;
+}
+
+/* MAIN */
+
+button{
+    margin: 50px;
+    padding: 10px 30px;
+    font-size: 30px;
+}
+
+main::after{
+    content: '';
+    display: inline-block;
+    border: 2px solid white;
+    width: 100%;
+    margin-top: auto;
+}
+
+
