@@ -33,11 +33,12 @@ submitElement.addEventListener('click', function(){
         //Risposta all'utente.
         if(authorized === true){
             console.log('La mail è autorizzata ad accedere')
+            alert("E-mail autorizzata all'accesso")
         } else {
-            alert('Inserire una mail autorizzata')
+            alert('E-mail non autorizzata / Errata')
             console.log('La mail non è autorizzata ad accedere')
         }
     } else {
-        alert ('Inserire una mail')
+        alert ('Inserire una E-mail')
     }
 })
