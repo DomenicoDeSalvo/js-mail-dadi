@@ -7,7 +7,7 @@ buttonElement.addEventListener('click', function() {
 
     //Dichiarare i giocatori e assegnazione dei numeri.
     let user = Math.floor(Math.random() * (6 - 1 + 1) + 1); //Number
-    computer = Math.floor(Math.random() * (6 - 1 + 1) + 1); //Number
+    let computer = Math.floor(Math.random() * (6 - 1 + 1) + 1); //Number
 
     // Generare una risposta per l'utente.
     // Acquisire elemento nel DOM in cui generare la risposta.
@@ -16,7 +16,7 @@ buttonElement.addEventListener('click', function() {
     // Creare elemento nella sezione risultato.
     let divResultElement = document.createElement('div'); //Element | Null
     //Mostrare risultato
-    resultSectionElement.append(divResultElement);
+    resultSectionElement.innerHTML = $[divResultElement]
     divResultElement.innerHTML = 'Tu' + user + 'Computer' + computer;
     //resultElement
     //if(user > computer) {
