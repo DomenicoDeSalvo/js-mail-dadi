@@ -51,4 +51,26 @@ main::after{
     margin-top: auto;
 }
 
+/*  RESULT */
+.hide{
+    display: none
+}
+
+.show{
+    display: flex;
+    justify-content: space-around;
+}
+
+.user,
+.computer{
+    width: 200px;
+    text-align: center;
+}
+
+#result div{
+    color: white;
+    margin: 24px 0;
+    font-size: 30px;
+}
+
 

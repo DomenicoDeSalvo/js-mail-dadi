@@ -7,19 +7,31 @@
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
+        <!-- HEADER -->
         <header>
             <div class="main__title container">
                 <h1>Gioco dei dadi</h1>
                 <h3>Clicca su "Genera" per giocare</h3>
             </div>
         </header>
+        <!-- MAIN -->
         <main>
             <div class="container">
                 <button class="button">Genera</button>
             </div>
         </main>
-        <section>
-            <div class="result"></div>
+        <!-- RESULT -->
+        <section class="container">
+            <div id="result" class="hide" >
+                <div class="user">
+                    <div>TU</div>
+                    <div id="number_user"></div>
+                </div>
+                <div class="computer">
+                    <div>COMPUTER</div>
+                    <div id="number_computer"></div>
+                </div>
+            </div>
         </section>
         <script src="./js/app.js"></script>
     </body>

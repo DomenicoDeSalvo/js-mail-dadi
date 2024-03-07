@@ -8,8 +8,22 @@ buttonElement.addEventListener('click', function() {
     //Dichiarare i giocatori e assegnazione dei numeri.
     let user = Math.floor(Math.random() * (6 - 1 + 1) + 1); //Number
     let computer = Math.floor(Math.random() * (6 - 1 + 1) + 1); //Number
+    //Mostrare il risultato al giocatore.
+    //Mostrare la tabella dei risultati.
+    const resultElement = document.getElementById('result')
+    resultElement.classList.remove('hide')
+    resultElement.classList.add('show')
+    //Mostrare i risultati attribuiti ai giocatori.
+    const userElement = document.getElementById('number_user'); //Element | Null
+    const computerElement = document.getElementById('number_computer'); //Element | Null
+    userElement.innerHTML = user;
+    computerElement.innerHTML = computer;
 
-    
+
+
+
+
+
 
     
         
