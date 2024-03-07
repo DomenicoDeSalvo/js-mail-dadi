@@ -9,17 +9,9 @@ buttonElement.addEventListener('click', function() {
     let user = Math.floor(Math.random() * (6 - 1 + 1) + 1); //Number
     let computer = Math.floor(Math.random() * (6 - 1 + 1) + 1); //Number
 
-    // Generare una risposta per l'utente.
-    // Acquisire elemento nel DOM in cui generare la risposta.
-    let resultSectionElement = document.querySelector('result'); //Element | Null
-    // Mostrare il risultato.
-    // Creare elemento nella sezione risultato.
-    let divResultElement = document.createElement('div'); //Element | Null
-    //Mostrare risultato
-    resultSectionElement.innerHTML = $[divResultElement]
-    divResultElement.innerHTML = 'Tu' + user + 'Computer' + computer;
-    //resultElement
-    //if(user > computer) {
+    
+
+    
         
 
     //}
