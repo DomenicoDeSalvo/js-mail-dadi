@@ -8,7 +8,7 @@ const submitElement = document.querySelector('.button'); //Element | Null
 
 //Lista delle email autorizzate
 
-const mailList = ['pincopallo@mail.com', 'tizio@mail.com', 'caio@mail.com', 'sempronio@mail.com', 'giorgio_mastrota@mail.com' ]//String
+const mailList = ['pincopallo@mail.com', 'tizio@mail.com', 'caio@mail.com', 'sempronio@mail.com', 'giorgio_mastrota@mail.com' ]//Array
 
 //Cliccando il bottone si avvierà l'algoritmo. 
 submitElement.addEventListener('click', function(){
